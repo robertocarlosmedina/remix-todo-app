@@ -37,15 +37,20 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .task {
-  background: #dbdbdb;
+  background: #747474;
   border-radius: 1rem;
+  color: #fff;
   margin: 0.255rem;
   padding: 0.625rem 1.2rem;
   cursor: pointer;
 }
+.task-completed {
+  opacity: .5;
+}
 .task h3 {
   display: flex;
   align-items: center;
+  font-weight: bold;
   justify-content: space-between;
 }
 .time {
@@ -57,7 +62,7 @@ body {
   justify-content: space-between;
 }
 .task-time {
-  color: #4e4e4e;
+  color: #bbbbbb;
 }
 .delete-icon {
   color: black;
